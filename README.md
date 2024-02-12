@@ -15,6 +15,7 @@ In this project have developed a fully functional Feedback System where only reg
    <li>Creating login/logout forms</li>
    <li>JSON Format</li>
    <li> Inserting data in models using view</li>
+   <li> Provide Download links In Django</li>
    </ul>
    </li>
    <li>CSS</li>
