@@ -1,0 +1,42 @@
+{% extends 'home.html' %}
+{% block title %}
+<div class="home">
+    <h1>COURSES</h1>
+</div>
+{% endblock %}
+
+{% load static %}
+{% block content %}
+<p class="blockquote text-success text-right mb-0">Web design is the creation of websites and pages to reflect a company's brand and information and ensure a
+    user-friendly experience. Appearance and design are incorporated as vital elements whether you're designing a
+    website, mobile app or maintaining content on a web page.Web designing is the process of planning, conceptualizing,
+    and implementing the plan for designing a website in a way that is functional and offers a good user experience.
+    User experience is central to the web designing process. Websites have an array of elements presented in ways that
+    make them easy to navigate.</p>
+<button class="btn btn-info btn-lg"><a href="{% static 'downloads/WebDesignSyllabus.pdf' %}" target="_blank">Download
+    Syllabus</a></button>
+<body class="bg-warning">
+<div class="container mt-5 col d-flex justify-content-center">
+    <div class="row">
+        <div class=" pay col-md-4">
+            <div class="card mb-4 box-shadow " style="width: 300px; height: 550px">
+                <img src="{% static 'image/wed.png' %}" class="card-img-top img-fluid " alt="Image"
+                     style="width: 100%; height: 200px">
+                <div class="card-header">
+                    <h4 class="my-2 font-weight-normal">WEB DESIGN</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">₹ 30,000<small class="text-muted"></small></h1>
+                    <ul class="list-unstyled mt-5 mb-4">
+                        <li>30 Seats</li>
+                        <li>2 hrs Daily</li>
+                        <li>3 Months Duration</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+{% endblock %}

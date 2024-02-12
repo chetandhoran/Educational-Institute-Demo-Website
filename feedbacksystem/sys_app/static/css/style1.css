@@ -1,0 +1,184 @@
+ ul li a:hover{
+        text-decoration:underline 5px red;
+        }
+
+        .content {
+          height: 60vh;
+          width: 100%;
+          background-color: pink;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+
+        .footer {
+          height: 200px;
+          width: 100%;
+          background-color:green;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+
+
+
+
+        .home {
+          background: url('../image/back.png') no-repeat;
+          background-size:cover;
+          color:white;
+          height:30vh;
+          width:100%;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+        }
+        .home-image{
+        background-size: cover;
+        }
+
+
+
+
+    .signup form{
+            height:100vh;
+            width:100%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction: column;
+            border:none;
+            background-color:	#ffbf00;
+            }
+    .signup form label{
+             font-size:20px;
+             font-weight:bold;
+            font-style:italic;
+            line-height: 80px;
+             }
+    .signup table caption{
+            caption-side: top;
+            font-size:25px;
+            font-weight:bold;
+            font-style:italic;
+            text-decoration: 3px underline blue;
+            }
+
+    .feed1 form{
+            float:left;
+            height:100vh;
+            width:50%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction: column;
+
+            background-color:orange;
+    }
+       .feed1 form label{
+             font-size:20px;
+             font-weight:bold;
+            font-style:italic;
+            line-height: 80px;
+             }
+     .feed1  table caption{
+            caption-side: top;
+            font-size:25px;
+            font-weight:bold;
+            font-style:italic;
+            text-decoration: 3px underline blue;
+            }
+
+     .feed2{
+             float:none;
+            height:100vh;
+            width:50%;
+
+            background-color:#ffbf00;
+            overflow-y:auto;
+            text-align:center;
+     }
+       .feed2::-webkit-scrollbar {
+            width: 20px;
+            }
+        .feed2 .card{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            height:350px;
+            width:400px;
+            color:white;
+            background:linear-gradient(to right top, #54E38E, #41C7AF);
+            border-radius:20px;
+            text-align:center;
+            font-size:18px;
+            font-weight:bold;
+
+            }
+
+      .pay .card{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            height:350px;
+            width:400px;
+            color:white;
+            background:linear-gradient(to right top, #54E38E, #41C7AF);
+            border-radius:20px;
+            text-align:center;
+            font-size:18px;
+            font-weight:bold;
+
+            }
+
+            .hard{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            color:grey;
+            }
+
+            .cont{
+            padding:5px;
+            scrollbar-width: 3px;
+            max-height: 100%;
+            overflow-y: auto;
+            }
+
+            .cont::-webkit-scrollbar {
+            width: 20px;
+            }
+
+
+    .cts{
+            width:100%;
+            display:flex;
+            align-items:center;
+            flex-direction: column;
+            background-color:grey;
+
+    }
+         .welcome {
+                background-image: url('../image/data.jpg');
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 75vh;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .neonText {
+                color: #ffffff;
+                text-shadow: 0 0 7px blue, 0 0 10px #ffffff, 0 0 21px #fff,
+                    0 0 42px #0fa, 0 0 82px black, 0 0 92px white, 0 0 102px whitesmoke,
+                    0 0 151px white;
+            }
+

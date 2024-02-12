@@ -1,0 +1,42 @@
+{% extends 'home.html' %}
+{% block title %}
+<div class="home">
+    <h1>COURSES</h1>
+</div>
+{% endblock %}
+{% load static %}
+
+{% block content %}
+<p class="blockquote text-success text-right mb-0">This course of study builds on the skills gained by students in Java Fundamentals or Java Foundations to help advance
+    Java programming skills. Students will design object-oriented applications with Java and will create Java programs
+    using hands-on, engaging activities.Java is a widely used object-oriented programming language and software platform
+    that runs on billions of devices, including notebook computers, mobile devices, gaming consoles, medical devices and
+    many others. </p>
+
+<button class="btn btn-info btn-lg"><a href="{% static 'downloads/javasyllabus.pdf' %}" target="_blank">Download Syllabus</a></button>
+<body class="bg-warning">
+<div class="container mt-5 col d-flex justify-content-center">
+    <div class="row">
+        <div class="pay col-md-4">
+            <div class="card mb-4 box-shadow" style="width: 300px; height: 550px">
+                <img src="{% static 'image/javva.png' %}" class="card-img-top img-fluid" alt="Image"
+                     style="width: 100%; height: 200px">
+                <div class="card-header">
+                    <h4 class="my-2 font-weight-normal">JAVA</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">₹ 20,000 <small class="text-muted"></small></h1>
+                    <ul class="list-unstyled mt-5 mb-4 ">
+                        <li>30 Seats</li>
+                        <li>2 hrs Daily</li>
+                        <li>2 Months Duration</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Enroll Now</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+{% endblock %}

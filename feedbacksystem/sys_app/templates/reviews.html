@@ -1,0 +1,28 @@
+{% extends 'home.html' %}
+{% block title %}
+<div class="home">
+    <h1>Student Testimonials</h1>
+</div>
+{% endblock %}
+
+
+{% block content %}
+<div class="feed2" style="width:100%">
+        <div class="hard">
+            {% for i in show %}
+            <div class="card">
+                <br><br>
+                Student : {{i.username}}<br><br>
+                <div class="cont">
+                    {{i.feedback}}<br><br>
+                </div>
+                {{i.created_date}}<br><br>
+            </div>
+            <br>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock %}
+
+
