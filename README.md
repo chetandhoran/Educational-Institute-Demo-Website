@@ -21,6 +21,7 @@ In this project have developed a fully functional Feedback System where only reg
    <li>Javascript </li>
    <li>Jquery</li>
    <li>Bootstrap</li>
+   <li>IDE Used : Pycharm</li>
 </ul>
 
 
