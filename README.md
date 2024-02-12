@@ -9,8 +9,9 @@ In this project have developed a fully functional Feedback System where only reg
    <li>Creating simple django project </li>
    <li>Creating django app in project</li>
    <li>Create and use HTML templates  in django projects.</li>
+    <li>Create Model </li>
    <li>Creating views</li>
-   <li>Create and use Model Forms</li>
+   <li>Create and use Forms</li>
    <li>Creating login/logout forms</li>
    <li>JSON Format</li>
    <li> Inserting data in models using view</li>
