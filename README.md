@@ -1,5 +1,5 @@
 # Description
-In this project have developed a fully functional Feedback System where only registered/authenticated User can provide feedback in real time, with all other webpages a Educational Institute website needs.
+In this project have developed a fully functional Feedback System where only registered/authenticated User can provide feedback in real time, with all other webpages a Educational Institute Website needs.
 # Topics Covered
 <ul>
   <li>Python</li>
