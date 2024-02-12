@@ -1,2 +1,2 @@
-# Educational-Institute-Demo-Website
-Fully Functional Demo Website For Educational Institute
+# Fully Functional Demo Website For Educational Institute
+
