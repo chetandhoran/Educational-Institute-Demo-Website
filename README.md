@@ -5,7 +5,7 @@ In this project have developed a fully functional Feedback System where only reg
   <li>Python</li>
   <li>Django
   <ul>
-   <li>Creting Virtual Environment</li>
+   <li>Creating Virtual Environment</li>
    <li>Creating simple django project </li>
    <li>Creating django app in project</li>
    <li>Create and use HTML templates  in django projects.</li>
